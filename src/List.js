@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const List = ({ people }) => {
   return (
@@ -7,7 +7,7 @@ const List = ({ people }) => {
         const { id, age, imgurl, name } = person;
         return (
           <div key={id} className='container'>
-            <img src={imgurl} />
+            <img src={imgurl} alt='' />
             <h3>{name}</h3>
             <p>Age {age}</p>
           </div>

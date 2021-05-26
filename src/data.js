@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     id: 1,
     name: "John McKelly",
@@ -36,3 +36,4 @@ export default [
     imgurl: "https://randomuser.me/api/portraits/med/women/11.jpg",
   },
 ];
+export default data;
